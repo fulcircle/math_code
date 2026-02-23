@@ -5,8 +5,8 @@ from matplotlib.animation import FuncAnimation
 
 def ocean_simulation():
 
-    S = 100  # Ocean grid size (m)
-    N = 50 # Num coefficients
+    S = 15  # Ocean grid size (m)
+    N = 100 # Num coefficients
     V = 10 # Wind speed (m/s)
     g = 9.8 # Gravitational acceleration (m/s)
     A = .001 # Tuning constant for Phillips spectrum
