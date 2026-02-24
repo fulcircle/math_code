@@ -2,15 +2,15 @@ import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib.animation import FuncAnimation
 
-GRID_SIZE = 15                  # Ocean patch size in meters
+GRID_SIZE = 100                 # Ocean patch size in meters
 NUM_COEFFICIENTS = 100          # Frequency grid resolution (NxN)
 WIND_SPEED = 10                 # Wind speed in m/s
 WATER_DEPTH = 10                # Water depth in meters
-PHILLIPS_CONSTANT = .001        # Amplitude tuning for Phillips spectrum
+PHILLIPS_CONSTANT = 1           # Amplitude tuning for Phillips spectrum
 WIND_DIRECTION = (1, 1)         # Wind direction vector (unnormalized)
 WIND_ALIGNMENT_EXPONENT = 15    # How tightly waves align with wind direction
 GRAVITY = 9.8                   # Gravitational acceleration in m/s^2
-DT = 0.05                        # Time step between frames in seconds
+DT = 0.1                        # Time step between frames in seconds
 NUM_FRAMES = 200                # Total animation frames
 
 
